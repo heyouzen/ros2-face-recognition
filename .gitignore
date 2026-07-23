@@ -1,0 +1,34 @@
+# python cache
+__pycache__/
+*.pyc
+
+# virtual environment
+face_env/
+
+# model files
+models/
+*.pt
+*.onnx
+
+# face database
+face_database/
+*.jpg
+*.png
+
+# output
+outputs/
+logs/
+
+# temporary
+tmp/
+
+# generated face feature libraries
+face_lib.json
+face_lib_backup*.json
+result.json
+
+# backup files
+*.bak
+
+# private/local test videos
+test_data/videos/
